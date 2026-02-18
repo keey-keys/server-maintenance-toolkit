@@ -1,0 +1,37 @@
+========================================
+  Server Maintenance Toolkit
+  Host: okikijesu
+  Started: 2026-02-18 18:19:44
+========================================
+
+
+================================================
+  LOG CLEANUP
+================================================
+[0;34mℹ[0m Cleaning logs older than 30 days...
+2026-02-18 18:19:44 [INFO] Cleaning logs older than 30 days...
+[0;34mℹ[0m Directories: /var/log /tmp
+2026-02-18 18:19:44 [INFO] Directories: /var/log /tmp
+
+[0;34mℹ[0m Processing: /var/log
+2026-02-18 18:19:44 [INFO] Processing: /var/log
+[0;34mℹ[0m Processing: /tmp
+2026-02-18 18:19:44 [INFO] Processing: /tmp
+
+[0;32m✅[0m Cleanup complete
+2026-02-18 18:19:45 [SUCCESS] Cleanup complete
+[0;34mℹ[0m Files deleted: 0
+2026-02-18 18:19:45 [INFO] Files deleted: 0
+[0;34mℹ[0m Files compressed: 0
+2026-02-18 18:19:45 [INFO] Files compressed: 0
+[0;34mℹ[0m Space freed: 0 MB
+2026-02-18 18:19:45 [INFO] Space freed: 0 MB
+
+
+================================================
+  MAINTENANCE COMPLETE
+================================================
+[0;34mℹ[0m Total duration: 1 seconds
+2026-02-18 18:19:45 [INFO] Total duration: 1 seconds
+[0;32m✅[0m All tasks completed successfully
+2026-02-18 18:19:45 [SUCCESS] All tasks completed successfully

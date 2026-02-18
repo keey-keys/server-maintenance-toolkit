@@ -1,0 +1,29 @@
+========================================
+  Server Maintenance Toolkit
+  Host: okikijesu
+  Started: 2026-02-18 18:19:04
+========================================
+
+
+================================================
+  DISK USAGE CHECK
+================================================
+[0;34mℹ[0m Checking disk usage (threshold: 80%)...
+2026-02-18 18:19:04 [INFO] Checking disk usage (threshold: 80%)...
+
+PARTITION            SIZE       USED       AVAILABLE  STATUS
+======================================================================
+[0;32m/                    30G        11G        18G        38%[0m
+[0;32m/home                30G        11G        18G        38%[0m
+
+[0;32m✅[0m All partitions are healthy
+2026-02-18 18:19:04 [SUCCESS] All partitions are healthy
+
+
+================================================
+  MAINTENANCE COMPLETE
+================================================
+[0;34mℹ[0m Total duration: 0 seconds
+2026-02-18 18:19:04 [INFO] Total duration: 0 seconds
+[0;32m✅[0m All tasks completed successfully
+2026-02-18 18:19:04 [SUCCESS] All tasks completed successfully

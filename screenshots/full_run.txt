@@ -1,0 +1,71 @@
+========================================
+  Server Maintenance Toolkit
+  Host: okikijesu
+  Started: 2026-02-18 18:18:47
+========================================
+
+
+================================================
+  DISK USAGE CHECK
+================================================
+[0;34mℹ[0m Checking disk usage (threshold: 80%)...
+2026-02-18 18:18:47 [INFO] Checking disk usage (threshold: 80%)...
+
+PARTITION            SIZE       USED       AVAILABLE  STATUS
+======================================================================
+[0;32m/                    30G        11G        18G        38%[0m
+[0;32m/home                30G        11G        18G        38%[0m
+
+[0;32m✅[0m All partitions are healthy
+2026-02-18 18:18:47 [SUCCESS] All partitions are healthy
+
+================================================
+  BACKUP PROCESS
+================================================
+[0;34mℹ[0m Starting backup process...
+2026-02-18 18:18:47 [INFO] Starting backup process...
+[0;34mℹ[0m Source: /home /etc
+2026-02-18 18:18:47 [INFO] Source: /home /etc
+[0;34mℹ[0m Destination: /backup/backup_20260218_181847.tar.gz
+2026-02-18 18:18:47 [INFO] Destination: /backup/backup_20260218_181847.tar.gz
+[0;32m✅[0m Backup completed successfully
+2026-02-18 18:18:48 [SUCCESS] Backup completed successfully
+[0;34mℹ[0m Backup size: 2.3M
+2026-02-18 18:18:48 [INFO] Backup size: 2.3M
+[0;34mℹ[0m Location: /backup/backup_20260218_181847.tar.gz
+2026-02-18 18:18:48 [INFO] Location: /backup/backup_20260218_181847.tar.gz
+[0;34mℹ[0m Cleaning backups older than 7 days...
+2026-02-18 18:18:48 [INFO] Cleaning backups older than 7 days...
+[0;34mℹ[0m No old backups to remove
+2026-02-18 18:18:48 [INFO] No old backups to remove
+
+================================================
+  LOG CLEANUP
+================================================
+[0;34mℹ[0m Cleaning logs older than 30 days...
+2026-02-18 18:18:48 [INFO] Cleaning logs older than 30 days...
+[0;34mℹ[0m Directories: /var/log /tmp
+2026-02-18 18:18:48 [INFO] Directories: /var/log /tmp
+
+[0;34mℹ[0m Processing: /var/log
+2026-02-18 18:18:48 [INFO] Processing: /var/log
+[0;34mℹ[0m Processing: /tmp
+2026-02-18 18:18:48 [INFO] Processing: /tmp
+
+[0;32m✅[0m Cleanup complete
+2026-02-18 18:18:48 [SUCCESS] Cleanup complete
+[0;34mℹ[0m Files deleted: 0
+2026-02-18 18:18:48 [INFO] Files deleted: 0
+[0;34mℹ[0m Files compressed: 0
+2026-02-18 18:18:48 [INFO] Files compressed: 0
+[0;34mℹ[0m Space freed: 0 MB
+2026-02-18 18:18:48 [INFO] Space freed: 0 MB
+
+
+================================================
+  MAINTENANCE COMPLETE
+================================================
+[0;34mℹ[0m Total duration: 1 seconds
+2026-02-18 18:18:48 [INFO] Total duration: 1 seconds
+[0;32m✅[0m All tasks completed successfully
+2026-02-18 18:18:48 [SUCCESS] All tasks completed successfully
